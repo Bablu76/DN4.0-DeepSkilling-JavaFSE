@@ -51,3 +51,32 @@
 - Entity-Relationship mapping
 - CRUD operations using Spring Data
 - Repository abstraction and derived queries
+Certainly! Here's your **Week-04** summary in the same crisp, one-liner style as the previous weeks:
+
+---
+
+## Week-04
+
+### 🔸 Spring Boot Setup
+
+- Created Spring Boot project with Maven and embedded Tomcat
+
+### 🔸 Spring Core with XML
+
+- Configured beans using `country.xml` and explored ApplicationContext
+
+### 🔸 RESTful Services – Hello World
+
+- Built a simple `@RestController` that returns a string response
+
+### 🔸 REST API – Static Country Response
+
+- Returned hardcoded `Country` bean as JSON via REST endpoint
+
+### 🔸 REST API – Dynamic Country Lookup
+
+- Handled path parameters using `@PathVariable` and returned matched country
+
+### 🔸 JWT Authentication Service
+
+- Built `/authenticate` to return JWT token using Basic Auth and `jjwt` library
