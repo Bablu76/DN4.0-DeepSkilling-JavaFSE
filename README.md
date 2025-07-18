@@ -51,9 +51,6 @@
 - Entity-Relationship mapping
 - CRUD operations using Spring Data
 - Repository abstraction and derived queries
-Certainly! Here's your **Week-04** summary in the same crisp, one-liner style as the previous weeks:
-
----
 
 ## Week-04
 
@@ -80,3 +77,30 @@ Certainly! Here's your **Week-04** summary in the same crisp, one-liner style as
 ### 🔸 JWT Authentication Service
 
 - Built `/authenticate` to return JWT token using Basic Auth and `jjwt` library
+
+## Week-05
+
+### 🔸 Spring Boot Microservice Creation
+
+* Scaffolded standalone Spring Boot projects for Account and Loan services
+
+### 🔸 Service Discovery with Eureka
+
+* Set up a Eureka Server and registered microservices as Eureka clients
+
+### 🔸 API Gateway with Spring Cloud Gateway
+
+* Configured routes and predicates in `application.yml` to proxy calls to backend services
+
+### 🔸 Routing & Filters
+
+* Implemented pre‑ and post‑filters in the gateway for logging and header enrichment
+
+### 🔸 Circuit Breaker Pattern
+
+* Added Resilience4j (via Spring Cloud Circuit Breaker) to wrap service calls with fallback methods
+
+### 🔸 Running Multiple Services
+
+* Launched Account (port 8080), Loan (port 8081), Eureka (port 8761), and Gateway (port 8082) concurrently in Eclipse console tabs
+
