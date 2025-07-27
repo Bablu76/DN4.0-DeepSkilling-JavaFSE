@@ -104,3 +104,34 @@
 
 * Launched Account (port 8080), Loan (port 8081), Eureka (port 8761), and Gateway (port 8082) concurrently in Eclipse console tabs
 
+## Week-06
+
+### 🔹 Task 1: React SPA & Environment Setup
+- Created a basic React project using `create-react-app`
+- Displayed static welcome message
+- Understood SPA vs MPA, Virtual DOM, JSX
+
+### 🔹 Task 2: Class-Based Components
+- Created a Student Management app with `Home`, `About`, and `Contact` class components
+- Used `constructor()` and `render()` methods
+
+### 🔹 Task 3: Functional Components & Props
+- Developed `CalculateScore` function component
+- Passed student data as props
+- Used external CSS (`mystyle.css`) for styling
+
+### 🔹 Task 4: Component Lifecycle Hooks
+- Fetched API data using `componentDidMount()`
+- Handled errors with `componentDidCatch()`
+- Displayed post titles and bodies using state and `.map()`
+
+### 🔹 Task 5: CSS Modules & Inline Styling
+- Styled `CohortDetails` using `CohortDetails.module.css`
+- Applied conditional inline styles for dynamic headings
+- Scoped styles using CSS Modules
+
+### 🔹 Task 6: React Router with Dynamic URL Params
+- Set up client-side routing using `react-router-dom`
+- Created `Home`, `TrainerList`, and `TrainerDetail` components
+- Passed trainer ID via URL and retrieved using `useParams()`
+- Rendered dynamic data from mock trainer model
