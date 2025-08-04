@@ -135,3 +135,78 @@
 - Created `Home`, `TrainerList`, and `TrainerDetail` components
 - Passed trainer ID via URL and retrieved using `useParams()`
 - Rendered dynamic data from mock trainer model
+
+## Week-07
+
+### 🔹 Task 9: `cricketapp` – ES6 Features in React
+
+**Concepts Covered:**
+- ES6 features: `map()`, arrow functions, destructuring, array merging
+- Conditional rendering using a `flag` variable
+
+**Components:**
+- `ListofPlayers`: Display player name and score
+- `Scorebelow70`: Filter and display players with score < 70
+- `IndianPlayers`: Merged `T20Players` and `RanjiTrophyPlayers` arrays
+
+### 🔹 Task 10: `officespacerentalapp` – JSX & Inline Styling
+
+**Concepts Covered:**
+- JSX syntax, React expressions, and JSX attributes
+- Inline CSS for dynamic style (conditional rent color)
+
+**Features:**
+- Image rendering
+- Object looping with JSX
+- Dynamic color for rent (`red` if ≤60000, `green` if >60000)
+
+
+### 🔹 Task 11: `eventexamplesapp` – Event Handling
+
+**Concepts Covered:**
+- React event handlers
+- Function parameters in events
+- Synthetic events
+
+**Features:**
+- `Increment` button triggers multiple functions
+- `Say Welcome` button passes a custom message
+- `OnPress` button demonstrates synthetic events
+- `CurrencyConvertor`:
+  - INR to USD/EUR conversion using `switch`
+  - Uses `alert()` to display result
+
+
+
+### 🔹 Task 12: `ticketbookingapp` – Conditional Rendering with Auth
+
+**Concepts Covered:**
+- Conditional rendering using `isLoggedIn` state
+- Simple login/logout flow
+
+**Features:**
+- Guest users can view flights only
+- Logged-in users can book tickets
+- Components: `Greeting`, `LoginButton`, `LogoutButton`
+
+
+
+### 🔹 Task 13: `bloggerapp` – Conditional Rendering Showcase
+
+**Concepts Covered:**
+- All 4 types of conditional rendering:
+  - `if-else`
+  - Ternary (`? :`)
+  - Logical AND (`&&`)
+  - `switch-case`
+
+**Components:**
+- `BookDetails`: Uses `&&` to conditionally render book list
+- `BlogDetails`: Renders blog list using ternary logic
+- `CourseDetails`: Uses `if-else` to render course data
+
+**Layout:**
+- Three-column Flexbox layout
+- Vertical lines separate each section
+
+---
