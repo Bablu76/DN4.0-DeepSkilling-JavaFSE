@@ -210,3 +210,26 @@
 - Vertical lines separate each section
 
 ---
+## Week-08
+### 🔹 Task 1: gitsetup – Git Configuration & First Commit
+- Configure Git user details & Notepad++ editor
+
+- Init GitDemo repo, add welcome.txt, commit & push
+
+### 🔹 Task 2: gitignore – Ignoring Unwanted Files
+- Add .gitignore for *.log & logs/
+
+- Commit .gitignore & verify with git status
+
+### 🔹 Task 3: gitbranchmerge – Branching & Merging
+- Create GitNewBranch, add files & commit
+
+- Merge into master, view history, delete branch
+
+### 🔹 Task 4: gitconflict – Merge Conflict Resolution
+- Create GitWork & master changes to hello.xml
+
+- Merge, resolve conflict via 3-way merge tool, commit, update .gitignore
+
+### 🔹 Task 5: gitcleanup – Cleanup & Push to Remote
+- Ensure master clean, pull from remote, push pending changes
